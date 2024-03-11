@@ -10,14 +10,14 @@
                     "rolled": false
                 },
                 "initiative": {
-                    "characteristic": "agility",
+                    "characteristic": "agilité",
                     "base": "1d10"
                 },
                 "size": 4,
                 "characteristics": {
                     "weaponSkill": {
-                        "label": "Weapon Skill",
-                        "short": "WS",
+                        "label": "Compétence de Combat",
+                        "short": "CC",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -25,8 +25,8 @@
                         "cost": 0
                     },
                     "ballisticSkill": {
-                        "label": "Ballistic Skill",
-                        "short": "BS",
+                        "label": "Capacité de Tir",
+                        "short": "CT",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -34,8 +34,8 @@
                         "cost": 0
                     },
                     "strength": {
-                        "label": "Strength",
-                        "short": "S",
+                        "label": "Force",
+                        "short": "F",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -43,8 +43,8 @@
                         "cost": 0
                     },
                     "toughness": {
-                        "label": "Toughness",
-                        "short": "T",
+                        "label": "Endurance",
+                        "short": "E",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -52,7 +52,7 @@
                         "cost": 0
                     },
                     "agility": {
-                        "label": "Agility",
+                        "label": "Agilité",
                         "short": "Ag",
                         "base": 0,
                         "advance": 0,
@@ -79,8 +79,8 @@
                         "cost": 0
                     },
                     "willpower": {
-                        "label": "Willpower",
-                        "short": "WP",
+                        "label": "Force Mental",
+                        "short": "FM",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -88,17 +88,8 @@
                         "cost": 0
                     },
                     "fellowship": {
-                        "label": "Fellowship",
-                        "short": "Fel",
-                        "base": 0,
-                        "advance": 0,
-                        "modifier": 0,
-                        "unnatural": 0,
-                        "cost": 0
-                    },
-                    "influence": {
-                        "label": "Influence",
-                        "short": "Inf",
+                        "label": "Sociabilité",
+                        "short": "Soc",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -135,7 +126,7 @@
                 },
                 "skills": {
                     "acrobatics": {
-                        "label": "Acrobatics",
+                        "label": "Acrobaties",
                         "characteristics": ["Ag", "S"],
                         "selectedCharacteristic": "",
                         "advance": 0,
@@ -145,7 +136,7 @@
                         "characteristic": "Ag"
                     },
                     "athletics": {
-                        "label": "Athletics",
+                        "label": "Athlétisme",
                         "characteristics": ["S", "T"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -154,7 +145,7 @@
                         "characteristic": "S"
                     },
                     "awareness": {
-                        "label": "Awareness",
+                        "label": "Vigilance",
                         "characteristics": ["Per", "Fel", "Int"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -163,7 +154,7 @@
                         "characteristic": "Per"
                     },
                     "charm": {
-                        "label": "Charm",
+                        "label": "Charme",
                         "characteristics": ["Fel", "Inf"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -172,7 +163,7 @@
                         "characteristic": "Fel"
                     },
                     "command": {
-                        "label": "Command",
+                        "label": "Commande",
                         "characteristics": ["Fel", "Int", "S", "WP"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -190,7 +181,7 @@
                         "characteristic": "Int"
                     },
                     "commonLore": {
-                        "label": "Common Lore",
+                        "label": "Connaisances Communes",
                         "characteristics": ["Int", "Fel"],
                         "advance": 0,
                         "isSpecialist": true,
@@ -232,43 +223,43 @@
                                 "taken": false
                             },
                             "askellonSector": {
-                                "label": "Askellon Sector",
+                                "label": "Calixis Sector",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "chartistCaptains": {
-                                "label": "Chartist Captains",
+                                "label": "Capitaines Commercants",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "collegiaTitanicu": {
-                                "label": "Collegia Titanicu",
+                                "label": "Collegia Titanicus",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "ecclesiarchy": {
-                                "label": "Ecclesiarchy",
+                                "label": "Ecclesiarchie",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperialCreed": {
-                                "label": "Imperial Creed",
+                                "label": "Crédo Impérial",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperialGuard": {
-                                "label": "Imperial Guard",
+                                "label": "Garde Impériale",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperialNavy": {
-                                "label": "Imperial Navy",
+                                "label": "Flotte Impériale",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -286,13 +277,13 @@
                                 "taken": false
                             },
                             "planetaryDefenceForces": {
-                                "label": "Planetary Defence Forces",
+                                "label": "Force de Défense Planétaire",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "rogueTraders": {
-                                "label": "Rogue Traders",
+                                "label": "Libres Marchands",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -310,13 +301,13 @@
                                 "taken": false
                             },
                             "underworld": {
-                                "label": "Underworld",
+                                "label": "Sous-Monde",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "war": {
-                                "label": "War",
+                                "label": "Guerre",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -325,7 +316,7 @@
                         "characteristic": "Int"
                     },
                     "deceive": {
-                        "label": "Deceive",
+                        "label": "Baratin",
                         "characteristics": ["Fel", "Int"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -334,7 +325,7 @@
                         "characteristic": "Fel"
                     },
                     "dodge": {
-                        "label": "Dodge",
+                        "label": "Esquiver",
                         "characteristics": ["Ag"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -343,7 +334,7 @@
                         "characteristic": "Ag"
                     },
                     "forbiddenLore": {
-                        "label": "Forbidden Lore",
+                        "label": "Connaisances Interdites",
                         "characteristics": ["Int", "Fel"],
                         "advance": 0,
                         "isSpecialist": true,
