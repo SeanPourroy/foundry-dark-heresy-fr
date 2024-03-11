@@ -127,7 +127,7 @@
                 "skills": {
                     "acrobatics": {
                         "label": "Acrobaties",
-                        "characteristics": ["Ag", "S"],
+                        "characteristics": ["Ag", "F"],
                         "selectedCharacteristic": "",
                         "advance": 0,
                         "isSpecialist": false,
@@ -137,16 +137,16 @@
                     },
                     "athletics": {
                         "label": "Athlétisme",
-                        "characteristics": ["S", "T"],
+                        "characteristics": ["F", "End"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "S"
+                        "characteristic": "F"
                     },
                     "awareness": {
                         "label": "Vigilance",
-                        "characteristics": ["Per", "Fel", "Int"],
+                        "characteristics": ["Per", "Soc", "Int"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
@@ -155,25 +155,25 @@
                     },
                     "charm": {
                         "label": "Charme",
-                        "characteristics": ["Fel", "Inf"],
+                        "characteristics": ["Soc", "Inf"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Fel"
+                        "characteristic": "Soc"
                     },
                     "command": {
                         "label": "Commande",
-                        "characteristics": ["Fel", "Int", "S", "WP"],
+                        "characteristics": ["Soc", "Int", "F", "FM"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Fel"
+                        "characteristic": "Soc"
                     },
                     "commerce": {
                         "label": "Commerce",
-                        "characteristics": ["Int", "Fel"],
+                        "characteristics": ["Int", "Soc"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
@@ -182,7 +182,7 @@
                     },
                     "commonLore": {
                         "label": "Connaisances Communes",
-                        "characteristics": ["Int", "Fel"],
+                        "characteristics": ["Int", "Soc"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
@@ -317,12 +317,12 @@
                     },
                     "deceive": {
                         "label": "Baratin",
-                        "characteristics": ["Fel", "Int"],
+                        "characteristics": ["Soc", "Int"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Fel"
+                        "characteristic": "Soc"
                     },
                     "dodge": {
                         "label": "Esquiver",
@@ -335,7 +335,7 @@
                     },
                     "forbiddenLore": {
                         "label": "Connaisances Interdites",
-                        "characteristics": ["Int", "Fel"],
+                        "characteristics": ["Int", "Soc"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
@@ -346,31 +346,31 @@
                                 "taken": false
                             },
                             "chaosSpaceMarines": {
-                                "label": "Chaos Space Marines",
+                                "label": "Space Marines du Chaos",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "criminalCartelsAndSmugglers": {
-                                "label": "Criminal Cartels and Smugglers",
+                                "label": "Cartels Criminels et Passeurs",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "daemonology": {
-                                "label": "Daemonology",
+                                "label": "Démonologie",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "heresy": {
-                                "label": "Heresy",
+                                "label": "Hérésie",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "theHorusHeresyAndTheLongWar": {
-                                "label": "The Horus Heresy and the Long War",
+                                "label": "L'Hérésie d'Horus et la Grande Guerre",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -406,7 +406,7 @@
                                 "taken": false
                             },
                             "theWarp": {
-                                "label": "The Warp",
+                                "label": "Warp",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -421,46 +421,46 @@
                         "characteristic": "Int"
                     },
                     "inquiry": {
-                        "label": "Inquiry",
-                        "characteristics": ["Fel", "Int", "Per"],
+                        "label": "Enquête",
+                        "characteristics": ["Soc", "Int", "Per"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Fel"
+                        "characteristic": "Soc"
                     },
                     "interrogation": {
-                        "label": "Interrogation",
-                        "characteristics": ["WP", "Fel"],
+                        "label": "Interrogatoire",
+                        "characteristics": ["FM", "Soc"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "WP"
+                        "characteristic": "FM"
                     },
                     "intimidate": {
-                        "label": "Intimidate",
-                        "characteristics": ["S", "WP"],
+                        "label": "Intimidation",
+                        "characteristics": ["F", "FM"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "S"
+                        "characteristic": "F"
                     },
                     "linguistics": {
-                        "label": "Linguistics",
-                        "characteristics": ["Int", "Fel"],
+                        "label": "Linguistiques",
+                        "characteristics": ["Int", "Soc"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "chapterRunes": {
-                                "label": "Chapter Runes",
+                                "label": "Runes du Chapitres",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "chaosMarks": {
-                                "label": "Chaos Marks",
+                                "label": "Marques du Chaos",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -472,25 +472,25 @@
                                 "taken": false
                             },
                             "highGothic": {
-                                "label": "High Gothic",
+                                "label": "Haut Gothiques",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperialCodes": {
-                                "label": "Imperial Codes",
+                                "label": "Code Impérial",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "lowGothic": {
-                                "label": "Low Gothic",
+                                "label": "Bas Gothiques",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "mercenary": {
-                                "label": "Mercenary",
+                                "label": "Mercenaires",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -520,13 +520,13 @@
                                 "taken": false
                             },
                             "underworld": {
-                                "label": "Underworld",
+                                "label": "Sous-Monde",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "xenosMarkings": {
-                                "label": "Xenos Markings",
+                                "label": "Marquage Xenos",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -535,7 +535,7 @@
                         "characteristic": "Int"
                     },
                     "logic": {
-                        "label": "Logic",
+                        "label": "Logique",
                         "characteristics": ["Int", "Ag"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -553,19 +553,19 @@
                         "characteristic": "Int"
                     },
                     "navigate": {
-                        "label": "Navigate",
+                        "label": "Navigation",
                         "characteristics": ["Int", "Per"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "surface": {
-                                "label": "Surface",
+                                "label": "Planétaire",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "stellar": {
-                                "label": "Stellar",
+                                "label": "Stéllaire",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -580,25 +580,25 @@
                         "characteristic": "Int"
                     },
                     "operate": {
-                        "label": "Operate",
+                        "label": "Opérations",
                         "characteristics": ["Ag", "Int"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "surface": {
-                                "label": "Surface",
+                                "label": "Planétaire",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "aeronautica": {
-                                "label": "Aeronautica",
+                                "label": "Aéronautique",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "voidship": {
-                                "label": "Voidship",
+                                "label": "Antigrav",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -607,17 +607,17 @@
                         "characteristic": "Ag"
                     },
                     "parry": {
-                        "label": "Parry",
-                        "characteristics": ["WS"],
+                        "label": "Parer",
+                        "characteristics": ["CC"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "WS"
+                        "characteristic": "CC"
                     },
                     "psyniscience": {
                         "label": "Psyniscience",
-                        "characteristics": ["Per", "WP"],
+                        "characteristics": ["Per", "FM"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
@@ -625,79 +625,79 @@
                         "characteristic": "Per"
                     },
                     "scholasticLore": {
-                        "label": "Scholastic Lore",
-                        "characteristics": ["Int", "Fel"],
+                        "label": "Connaissances Scolaires",
+                        "characteristics": ["Int", "Soc"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "astromancy": {
-                                "label": "Astromancy",
+                                "label": "Astromancie",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "beasts": {
-                                "label": "Beasts",
+                                "label": "Bêtes",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "bureaucracy": {
-                                "label": "Bureaucracy",
+                                "label": "Bureaucratie",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "chymistry": {
-                                "label": "Chymistry",
+                                "label": "Chimie",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "cryptology": {
-                                "label": "Cryptology",
+                                "label": "Cryptologie",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "heraldry": {
-                                "label": "Heraldry",
+                                "label": "Héraldique",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperialWarrants": {
-                                "label": "Imperial Warrants",
+                                "label": "Mandat Impérial",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "judgement": {
-                                "label": "Judgement",
+                                "label": "Jugement",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "legend": {
-                                "label": "Legend",
+                                "label": "Legende",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "numerology": {
-                                "label": "Numerology",
+                                "label": "Numérologie",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "occult": {
-                                "label": "Occult",
+                                "label": "Occultisme",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "philosophy": {
-                                "label": "Philosophy",
+                                "label": "Philosophie",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -712,8 +712,8 @@
                         "characteristic": "Int"
                     },
                     "scrutiny": {
-                        "label": "Scrutiny",
-                        "characteristics": ["Per", "Fel"],
+                        "label": "Examiner",
+                        "characteristics": ["Per", "Soc"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
@@ -721,7 +721,7 @@
                         "characteristic": "Per"
                     },
                     "security": {
-                        "label": "Security",
+                        "label": "Sécurité",
                         "characteristics": ["Int", "Ag"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -730,7 +730,7 @@
                         "characteristic": "Int"
                     },
                     "sleightOfHand": {
-                        "label": "Sleight of Hand",
+                        "label": "Escamotage",
                         "characteristics": ["Ag", "Int"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -739,7 +739,7 @@
                         "characteristic": "Ag"
                     },
                     "stealth": {
-                        "label": "Stealth",
+                        "label": "Furtivité",
                         "characteristics": ["Ag", "Per"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -748,7 +748,7 @@
                         "characteristic": "Ag"
                     },
                     "survival": {
-                        "label": "Survival",
+                        "label": "Survie",
                         "characteristics": ["Per", "Ag", "Int"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -757,7 +757,7 @@
                         "characteristic": "Per"
                     },
                     "techUse": {
-                        "label": "Tech Use",
+                        "label": "Technométrise",
                         "characteristics": ["Int", "Ag"],
                         "advance": 0,
                         "isSpecialist": false,
@@ -766,8 +766,8 @@
                         "characteristic": "Int"
                     },
                     "trade": {
-                        "label": "Trade",
-                        "characteristics": ["Int", "Ag", "Fel"],
+                        "label": "Commerce",
+                        "characteristics": ["Int", "Ag", "Soc"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
@@ -778,55 +778,55 @@
                                 "taken": false
                             },
                             "archaeologist": {
-                                "label": "Archaeologist",
+                                "label": "Archéologiste",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "armourer": {
-                                "label": "Armourer",
+                                "label": "Armu"rier,
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "astrographer": {
-                                "label": "Astrographer",
+                                "label": "Astrographe",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "chymist": {
-                                "label": "Chymist",
+                                "label": "Chimiste",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "cryptographer": {
-                                "label": "Cryptographer",
+                                "label": "Cryptographe",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "cook": {
-                                "label": "Cook",
+                                "label": "Cuisinier",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "explorator": {
-                                "label": "Explorator",
+                                "label": "Explorateur",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "linguist": {
-                                "label": "Linguist",
+                                "label": "Linguiste",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "loremancer": {
-                                "label": "Loremancer",
+                                "label": "Historien",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
@@ -838,49 +838,49 @@
                                 "taken": false
                             },
                             "performancer": {
-                                "label": "Performancer",
+                                "label": "Performeurs",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "prospector": {
-                                "label": "Prospector",
+                                "label": "Prospecteurs",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "scrimshawer": {
-                                "label": "Scrimshawer",
+                                "label": "Graveur d'os",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "sculptor": {
-                                "label": "Sculptor",
+                                "label": "Sculpteur",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "shipwright": {
-                                "label": "Shipwright",
+                                "label": "Charpentier",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "soothsayer": {
-                                "label": "Soothsayer",
+                                "label": "Devin",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "technomat": {
-                                "label": "Technomat",
+                                "label": "Technogure",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "voidfarer": {
-                                "label": "Voidfarer",
+                                "label": "Navigateur",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
